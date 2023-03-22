@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+.console {
+  font-family: 'Roboto Mono', monospace;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+header.terminal {
+  background: #E0E8F0;
+  height: 30px;
+  border-radius: 8px 8px 0 0;
+  padding-left: 10px;
+}
+
+.terminal-container header .button {
+  width: 12px;
+  height: 12px;
+  margin: 10px 4px 0 0;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+.green {
+  background-color: #3BB662 !important;
+}
+
+.red {
+  background-color: #E75448 !important;
+}
+
+.yellow {
+  background-color: #E5C30F !important;
+}
+
+.terminal-container {
+  text-align: left;
+  width: 100%;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 14px;
+  position: relative;
+}
+
+.terminal-fixed-top {
+  height: 100%;
+}
+
+.terminal-home {
+  background-color: #30353A;
+  padding: 1.5em 1em 1em 2em;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  color: #FAFAFA;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.prompt-container {
+  display: flex;
+  width: 100%;
+}
+
+.prompt-text {
+  justify-content: space-between;
+  padding-right: 7px;
+}
+
+.history-element {
+  white-space: pre-wrap;
+}
+
+#prompt-input {
+  background-color: #30353A;
+  color: #FAFAFA;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-size: medium;
+  width: 90%;
+}
