@@ -5,7 +5,7 @@ tmp_path='/tmp/www-deploy'
 
 rm -rf "$tmp_path" &&
   echo "Building rust..." &&
-  cargo build &&
+  wasm-pack build &&
   echo "Building javascript..." &&
   cd ./www &&
   npm run build &&
