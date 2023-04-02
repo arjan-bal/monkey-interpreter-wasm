@@ -8,10 +8,12 @@ rm -rf "$tmp_path" &&
   wasm-pack build &&
   echo "Building javascript..." &&
   cd ./www &&
+  npm i &&
   npm run build &&
   cp -r ./dist "$tmp_path" &&
   cd .. &&
   echo "Deploying to gh-pages..." &&
+  git fetch origin gh-pages &&
   git checkout gh-pages &&
   rm -rf ./docs &&
   cp -r "$tmp_path/" ./docs &&
