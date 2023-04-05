@@ -15,7 +15,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-      # Much faster tahn cargo install
+      # Much faster than cargo install
       - uses: jetli/wasm-pack-action@v0.4.0
       - run: git config --global user.email 'github@actions.com' && git config --global user.name 'GitHub Action'
       - run: ./deploy-gh-pages.sh
