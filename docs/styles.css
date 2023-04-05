@@ -13,6 +13,10 @@ html {
   height: 100%;
 }
 
+a {
+  color: #4AF626;
+}
+
 header.terminal {
   background: #E0E8F0;
   height: 30px;
@@ -26,18 +30,6 @@ header.terminal {
   margin: 10px 4px 0 0;
   display: inline-block;
   border-radius: 8px;
-}
-
-.green {
-  background-color: #3BB662 !important;
-}
-
-.red {
-  background-color: #E75448 !important;
-}
-
-.yellow {
-  background-color: #E5C30F !important;
 }
 
 .terminal-container {
